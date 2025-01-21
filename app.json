@@ -1,0 +1,17 @@
+{
+  "name": "YouTube Scraper API",
+  "description": "A fast and reliable YouTube scraper API for videos and audios with multi-pixel support.",
+  "repository": "https://github.com/Princeshoro/youtube-scraper",
+  "keywords": ["YouTube", "scraper", "API", "nodejs", "heroku"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "NODE_ENV": {
+      "description": "Set to production for Heroku environment",
+      "value": "production"
+    }
+  }
+}
